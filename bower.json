@@ -1,0 +1,11 @@
+{
+  "name": "Device Detection",
+  "version": "0.0.1",
+  "homepage": "https://github.com/argyleink/Mobile-Detection",
+  "authors": [
+    "Adam Argyle <atom@argyleink.com>"
+  ],
+  "description": "Device and browser detection script",
+  "main": "device-detect.js",
+  "license": "MIT"
+}
