@@ -1,7 +1,7 @@
 /*
  * Detect mobile browsers and devices
  *
- * Version 0.0.2
+ * Version 0.0.3
  *
  * Author: Adam Argyle, Forked from Jos Koomen
  * Twitter : @argyleink
