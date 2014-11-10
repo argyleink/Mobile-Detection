@@ -82,7 +82,10 @@ var Device = (function() {
     },
     portrait:           function() {
       return window.orientation === 0 || window.orientation === 180;
-    }
+    },
+
+    mobile:             typeof window.orientation !== 'undefined',
+    desktop:            typeof window.orientation === 'undefined'
   }
 
 })();
