@@ -1,7 +1,7 @@
 /*
  * Detect mobile browsers and devices
  *
- * Version 0.0.3
+ * Version 0.0.4
  *
  * Author: Adam Argyle, Forked from Jos Koomen
  * Twitter : @argyleink
@@ -58,7 +58,7 @@ var Device = (function() {
     windowsphone7:      ua.indexOf('windows phone os 7') !== -1,
     windowsphone8:      ua.indexOf('windows phone 8') !== -1,
 
-    ios:                this.iphone || this.ipad || this.ipod,
+    ios:                ua.indexOf('iphone') !== -1 || ua.indexOf('ipod') !== -1 || ua.indexOf('ipad') !== -1,
     ios5:               ua.indexOf('os 5') !== -1,
     ios6:               ua.indexOf('os 6') !== -1,
     ios7:               ua.indexOf('os 7') !== -1,
