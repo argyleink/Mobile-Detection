@@ -85,6 +85,7 @@ var Device = (function() {
     },
 
     mobile:             typeof window.orientation !== 'undefined',
+    tablet:             typeof window.orientation !== 'undefined' && window.innerWidth >= 768,
     desktop:            typeof window.orientation === 'undefined'
   }
 
