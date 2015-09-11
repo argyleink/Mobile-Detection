@@ -1,5 +1,7 @@
 This plugin comes with the most common devices and os systems for modern mobile web developers. You can detect several devices. **All detections returns a boolean.**
 
+`bower i device-detect.js --save`
+
 ### Detect retina displays
 
 + Device.retina; (devicePixelRation == 2)
